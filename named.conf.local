@@ -5,5 +5,5 @@ zone "okd.local" {
 
 zone "3.137.10.in-addr.arpa" {
     type master;
-    file "/etc/named/zones/db.10.137.3";  # 10.137.3.0/16 subnet
+    file "/etc/named/zones/db.10.137.3";  # 10.137.0.0/16 subnet
 };
