@@ -4,7 +4,7 @@ metadata:
   name: registry-pv
 spec:
   capacity:
-    storage: 140Gi
+    storage: 145Gi
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
